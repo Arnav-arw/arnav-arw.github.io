@@ -14,11 +14,5 @@
     "start": "http-server",
     "start:dev": "http-server -c-1",
     "deploy": "now && now alias"
-  },
-  "devDependencies": {
-    "bootstrap-sass": "^3.3.7",
-    "http-server": "^0.11.1",
-    "node-sass": "^4.8.3",
-    "now": "^11.1.7"
   }
 }
