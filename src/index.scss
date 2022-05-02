@@ -1,5 +1,5 @@
-@import "bootstrap.scss";
-@import "font.scss";
+@import "./bootstrap.scss";
+@import "./font.scss";
 
 $font-color-light: #777777;
 $primary-color: #3cb0ff;
@@ -61,7 +61,7 @@ a {
 .pattern {
   height: 100px;
   width: 100%;
-  background-image: url("/img/pattern.svg");
+  background-image: url("./img/pattern.svg");
   opacity: 0.2;
 }
 
