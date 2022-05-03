@@ -1,5 +1,5 @@
-@import "../bootstrap.scss";
-@import "../font.scss";
+@import "bootstrap.scss";
+@import "font.scss";
 
 $font-color-light: #777777;
 $primary-color: #3cb0ff;
@@ -34,14 +34,6 @@ body {
   color: #00ab6c;
 }
 
-#insta {
-  color: #fb3958;
-}
-
-#yt {
-  color: #ff0000;
-}
-
 a {
   color: $primary-color;
   font-weight: 600;
@@ -61,20 +53,20 @@ a {
 .pattern {
   height: 100px;
   width: 100%;
-  background-image: url("./img/pattern.svg");
+  background-image: url("/img/pattern.svg");
   opacity: 0.2;
 }
 
 .content {
   height: 100%;
   .header {
-    margin-top: 50px;
+    margin-top: 200px;
     img {
       width: 100px;
     }
   }
   .quote {
-    padding-top: 50px;
+    padding-top: 100px;
     font-size: 100px;
     font-weight: 300;
     p {
@@ -294,7 +286,7 @@ a {
   }
   .content {
     .header {
-      margin-top: 50px;
+      margin-top: 100px;
       img {
         width: 80px;
       }
